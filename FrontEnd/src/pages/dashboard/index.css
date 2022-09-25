@@ -1,0 +1,36 @@
+
+
+.user-container{
+    max-width: 90%;
+    margin: 12px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.user-card{
+    position: relative;
+    width:30%;
+    padding:32px;
+    background-color: rgba(240,240,240,0.4);
+    margin:8px 0;
+    height: 290px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.btn-container{
+    margin-top: 32px;
+    
+}
+.btn-delete{
+    background-color: red;
+    width: 130px;
+    height: 40px;
+}
+.btn-update{
+    background-color: rgb(5, 108, 177);
+    width: 130px;
+    height: 40px;
+}
